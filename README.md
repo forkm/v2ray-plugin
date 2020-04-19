@@ -1,10 +1,21 @@
 # Yet another SIP003 plugin for shadowsocks, based on v2ray
 
-[![CircleCI](https://circleci.com/gh/shadowsocks/v2ray-plugin.svg?style=shield)](https://circleci.com/gh/shadowsocks/v2ray-plugin)
-[![Releases](https://img.shields.io/github/downloads/shadowsocks/v2ray-plugin/total.svg)](https://github.com/shadowsocks/v2ray-plugin/releases)
-[![Language: Go](https://img.shields.io/badge/go-1.12+-blue.svg)](https://github.com/shadowsocks/v2ray-plugin/search?l=go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/shadowsocks/v2ray-plugin)](https://goreportcard.com/report/github.com/shadowsocks/v2ray-plugin)
-[![License](https://img.shields.io/github/license/shadowsocks/v2ray-plugin.svg)](LICENSE)
+ss的v2ray插件
+
+使用方法：
+
+    安装ss-libev或ss-rust,即ss服务端
+    安装v2ray-plugin的http模式
+    修改ss配置：路径 /etc/shadowsocks/config.json
+
+服务端搭建：
+
+    搭建脚本：https://github.com/forkm/Shell
+    插件下载：https://github.com/shadowsocks/v2ray-plugin/releases
+
+对应的安卓客户端：
+
+    https://github.com/forkm/v2ray-plugin-android
 
 ## Build
 
